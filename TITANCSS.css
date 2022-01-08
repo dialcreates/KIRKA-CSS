@@ -103,3 +103,26 @@
     font-size: 1rem;
     text-align: left;
 }
+
+:root {
+    --Csize: 4px;
+    --mainC: #39FF14;
+}
+
+
+body:before {
+    border-radius: 200px;
+    content: " ";
+    background-image: linear-gradient(0deg, var(--mainC), var(--mainC));
+    border: 1px solid black;
+    background-size: var(--Csize), var(--Csize);
+    width: var(--Csize);
+    height: var(--Csize);
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(-50%, 50%);
+    z-index: 999 !important;
+}
