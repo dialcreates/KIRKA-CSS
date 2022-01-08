@@ -1,0 +1,103 @@
+:root {
+    --baseColor: #252525;
+    --baseColorRGB: 37, 37, 37;
+    --accentColor: #ce0037;
+}
+
+.bg-radial[data-v-d9238ce6],
+.name-page[data-v-0238bf17] {
+    background: url(https://www.transparenttextures.com/patterns/asfalt-light.png);
+
+    background: url(https://media.discordapp.net/attachments/920718364261879821/929225758843498506/redtitan.png?width=630&height=559) repeat;
+ width: 100%;
+    height: 200vh;
+    opacity: 1
+} 
+
+.head[data-v-4e2ec512],
+.list[data-v-4e2ec512],
+.pattern-bg[data-v-d9238ce6],
+.logo[data-v-d9238ce6] {
+    display: none !important;
+}
+
+.left-icons[data-v-d9238ce6] {
+    margin-top: 5rem;
+}
+
+.icon-btn[data-v-45658db6] {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+}
+
+.icon[data-v-45658db6] {
+    margin-top: 0;
+}
+
+.card-cont[data-v-47a01a9a],
+.icon-btn[data-v-45658db6] {
+    border-bottom: none;
+    border-top: none;
+    box-shadow: none;
+}
+
+.home[data-v-0238bf17] {
+    background: var(--baseColor);
+    border-right: 0.125rem solid rgba(255, 255, 255, 0.1);
+}
+
+.card-cont[data-v-47a01a9a],
+.icon-btn[data-v-45658db6],
+.card[data-v-41938989],
+.top-bar[data-v-0238bf17] {
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(0.25rem);
+    border-radius: 1rem;
+}
+
+.progress-line[data-v-5aafd15a] {
+    background-color: var(--baseColor);
+    box-shadow: none;
+}
+
+.progress[data-v-5aafd15a] {
+    background-color: var(--accentColor);
+}
+
+.level[data-v-9dd62bd0],
+.levels[data-v-e6e1daf8],
+.levels[data-v-41938989] {
+    color: var(--accentColor);
+}
+
+.background[data-v-7a2de70d],
+.container[data-v-7a2de70d],
+.leaderboard-cont[data-v-f110cb4e] {
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: blur(0.5rem);
+}
+
+.button[data-v-02c36fca] {
+    background-color: var(--baseColor) !important;
+    --hover-color: rgba(var(--baseColorRGB), 0.5) !important;
+    --top: rgba(255, 255, 255, 0.1) !important;
+    --bottom: rgba(0, 0, 0, 0.2) !important;
+}
+
+.text[data-v-02c36fca],
+.clan-tag[data-v-e6e1daf8] {
+    color: var(--accentColor);
+}
+
+.custom-checkbox > span[data-v-47e1b746]:before,
+.select-mod[data-v-d9238ce6] {
+    background-color: var(--baseColor);
+    border: 0.15rem solid rgba(255, 255, 255, 0.1);
+}
+.clan-tag[data-v-f110cb4e] {
+    color: #ce0037;
+    font-size: 1rem;
+    text-align: left;
+}
