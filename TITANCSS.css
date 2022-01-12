@@ -345,3 +345,33 @@ hr[data-v-a32bad04],
     margin-left: -22rem;
     margin-top: -10rem;
 }
+
+:root {
+    /* width of image */
+    --X-px: 20px;
+
+    /* height of image ↓ */
+    --Y-px: 20px;
+
+    /* opacity duh */
+    --opacity: 1;
+
+    /* image url duh lol*/
+    --Image-url: url(https://cdn.discordapp.com/attachments/616206938048561152/919882374311989258/pixil-frame-0_3.png);
+}
+
+
+body:before {
+    opacity: var(--opacity);
+    background: var(--Image-url);
+    background-size: var(--X-px), var(--Y-px);
+    height: var(--Y-px);
+    width: var(--X-px);
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    image-rendering: pixelated;
+    z-index: 999;
+    /*mix-blend-mode: difference;*/
