@@ -23,6 +23,11 @@ body {
   background: url(https://media.discordapp.net/attachments/920718364261879821/929225758843498506/redtitan.png?width=630&height=559) repeat !important;
 }
 
+#app > div.interface.text-2 > div.background > div.pattern-bg {
+  background: url() !important;
+  opacity: 1;
+  animation: none;
+}
 
 #logo {
   content: url(https://cdn.discordapp.com/attachments/589495189337276417/933736054794637353/TitansLogo3.png);
