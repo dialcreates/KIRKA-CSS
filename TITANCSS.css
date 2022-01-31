@@ -15,7 +15,7 @@ body {
 }
 /********************/
 #app > div.interface.text-2 > div.background {
-  background: url(https://cdn.discordapp.com/attachments/762121883230797854/929598115730817054/kirka_bg.png) repeat;
+  background: url(https://media.discordapp.net/attachments/920718364261879821/929225758843498506/redtitan.png?width=630&height=559) repeat;
   animation: loopPattern 80s linear infinite;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #logo {
-  content: url(https://cdn.discordapp.com/attachments/762121883230797854/929598115730817054/kirka_bg.png);
+  content: url(https://cdn.discordapp.com/attachments/589495189337276417/933736054794637353/TitansLogo3.png);
   width: 200px;
   height: 200px;
 }
@@ -456,7 +456,7 @@ hr::after {
 
 #ad-bottom::after {
   font-size: 0.75rem;
-  content: "CSS by Xyrrm#9667";
+  content: "Twitch.tv/Mr_OffTopic";
   background-color: var(--accentColor);
   color: #ffffff;
   padding: 0.5rem;
