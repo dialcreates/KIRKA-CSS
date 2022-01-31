@@ -12,6 +12,12 @@
 body {
   --green-1: var(--accentCompliment);
   --primary-1: var(--accentColor);
+}
+/********************/
+#app > div.interface.text-2 > div.background {
+  background: url(https://cdn.discordapp.com/attachments/762121883230797854/929598115730817054/kirka_bg.png) repeat;
+  animation: loopPattern 80s linear infinite;
+}
 
 .end-modal {
   background: url(https://media.discordapp.net/attachments/920718364261879821/929225758843498506/redtitan.png?width=630&height=559) repeat !important;
@@ -24,7 +30,7 @@ body {
 }
 
 #logo {
-  content: url(https://cdn.discordapp.com/attachments/589495189337276417/933736054794637353/TitansLogo3.png);
+  content: url(https://cdn.discordapp.com/attachments/762121883230797854/929598115730817054/kirka_bg.png);
   width: 200px;
   height: 200px;
 }
