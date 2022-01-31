@@ -638,8 +638,6 @@ img.bottom-logo {
 .avatar {
   border: 0.25rem solid var(--accentColor) !important;
 }
-
-}
 :root {
     /* width of image */
     --X-px: 45px;
