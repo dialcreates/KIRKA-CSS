@@ -638,3 +638,34 @@ img.bottom-logo {
 .avatar {
   border: 0.25rem solid var(--accentColor) !important;
 }
+
+}
+:root {
+    /* width of image */
+    --X-px: 45px;
+
+    /* height of image ↓ */
+    --Y-px: 45px;
+
+    /* opacity duh */
+    --opacity: 1;
+
+    /* image url duh lol*/
+    --Image-url: url(https://media.discordapp.net/attachments/671204735742640131/700636744113979483/plus.png?width=45&height=45);
+}
+
+
+body:before {
+    opacity: var(--opacity);
+    background: var(--Image-url);
+    background-size: var(--X-px), var(--Y-px);
+    height: var(--Y-px);
+    width: var(--X-px);
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    image-rendering: pixelated;
+    z-index: 999;
+    /*mix-blend-mode: difference;*/
